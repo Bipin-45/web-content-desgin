@@ -5,7 +5,6 @@
 }
 body {
   min-height: 100vh;
-  padding: 2rem;
   font-family: serif;
   background: linear-gradient(
     to bottom right,
@@ -29,16 +28,13 @@ header {
   background-color: #1672c3;
 }
 .sidebar {
-  height: 500px;
+  height: 370px;
   background-color: white;
   border-radius: 12px;
-
   position: sticky;
   top: 10px;
-
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
-  width: 200px;
-
+  width: 270px;
   padding: 15px;
 }
 .side-head {
@@ -58,6 +54,7 @@ header {
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
   width: 90%;
   padding: 20px;
+  height: 560px;
 }
 .main-body {
   display: flex;
@@ -91,3 +88,4 @@ h1 {
   width: 50px;
   border-radius: 50px;
 }
+
